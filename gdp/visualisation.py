@@ -10,3 +10,12 @@ def plot_gdp(df: pd.DataFrame) -> matplotlib.axes.Axes:
     """
 
     return sns.lineplot(data=df, x="Year", y="GDP", hue="Country Name")
+
+
+def my_group(df: pd.DataFrame) -> pd.DataFrame:
+    '''
+    Dummy function to fulfil to PR requests
+    '''
+
+    print(f"Hello group, this is my dataframe {df}")
+    return df
