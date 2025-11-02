@@ -20,7 +20,8 @@ def data_cleaner(
     df: pl.DataFrame, countries: List[str], start: int, end: int
 ) -> pl.DataFrame:
     """
-    This function takes in a dataframe and a list of country codes and returns a cleaned dataframe
+    This function takes in a dataframe and a list of country codes
+    and returns a cleaned dataframe
     with only the countries in the list and the years from start to end.
 
     Args:
